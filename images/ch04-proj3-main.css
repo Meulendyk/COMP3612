@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+body, section, header, div, p, h1, h2, ul, li {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-image: url("florence.jpg");
+    width: 1010px;
+    height: 600px;
+    font-family: 'Open Sans', sans-serif;
+}
+header a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #51279B;
+}
+header a:hover {
+    color: #8662C7;
+}
+header nav {
+    list-style-type: none;
+    padding: 25px 0px 25px 0px;
+    padding-left: 100px;
+    background-image: url("logo.svg");
+    background-size: 60px;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+header nav li {
+    display: inline-block;
+    margin-right: 30px;
+}
+header div {
+    margin-top: 180px;
+    margin-left: 100px;
+    color: white;
+}
+header div h1 {
+    font-size: 48px;
+    padding-bottom: 20px;
+}
+header div p {
+    font-size: 24px;
+    padding: 15px 0px 10px 0px;
+}
+header div a {
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #51279B;
+    color: white;
+}
+header div a:hover {
+    background-color: #8662C7;
+    color: white;
+}
+section .tiles{
+    padding:10px;
+    background-color:darkseagreen;
+    width: 1010px;
+}
+section .tiles .card{
+    display: inline-block;
+    background-color: white;
+    margin-left: 5px;
+}
+section .card h2 {
+    font-size: 14px;
+    margin-left: 5px;
+}
+section .card p {
+    font-size: 12px;
+    margin-left: 5px;
+}
+section .card li {
+    font-size: 10px;
+    display: inline-block;
+}
+section .card ul {
+    list-style-type: none;
+    margin-left: 5px;
+}
+section .card li:nth-child(1) span {
+    background-image: url("heart.png");
+    background-repeat: no-repeat;
+    background-size: 12px;
+}
+section .card li:nth-child(2) {
+    background-image: url("comment.png");
+    background-repeat: no-repeat;
+    background-size: 12px;
+}
+span {
+    padding-left: 16px;
+}
+footer {
+    font-size: 12px;
+    background-color:darkslategray;
+    width: 1010px;
+    padding-top: 15px;
+}
+footer a {
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+}
+footer a:nth-child(1) {
+    margin-left: 25px;
+}
+footer h2 {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+}
